@@ -20,7 +20,10 @@ This opens the door to a whole new way of thinking about code, code as a templat
 
 As we'll see in later lessons, it's possible to template much more than values, we can template functions, and classes allowing us extremely generalized code.
 So why would anyone do such a thing?  It's so you have a structure to work in, and so you can write less code overall.  It does mean more upfront work, but 
-it also means you get to be lazier in the future.
+it also means you get to be lazier in the future.  
+
+2)
+So - the next thing to look at is updating values in a class, for this we have to look at other_class_two.java so please head there for the explanation.
 
 */
 class lesson_four{
