@@ -19,7 +19,7 @@ The only 'real' thing happening here is:
 
 System.out.println("Welcome to java");
 
-This explains much of how java works. Every line ends with a semicolon, and function calls require paranthesis.  Also notice the use of '.'
+This explains much of how java works. Every line ends with a semicolon, and function calls require parentheses.  Also notice the use of '.'
 Specifically in System.out.println.  Theses dots are used to denote class methods.  Specifically we are in the System package of java, in the out class and calling the println method.
 
 We could wrap the println method as well.  (Something will get into in the next lesson).
