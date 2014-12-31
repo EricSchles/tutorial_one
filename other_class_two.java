@@ -16,6 +16,13 @@ There is a this construct in a sense for functions.  Anything not declared as st
 
 So, get_input will become ref.get_input() for the class instiation other_class_two ref = new other_class_two([string goes here], [number goes here]).
 
+We are now in a place to understand the set_input() function.  To do the updating you need only set the value like so,
+
+this.input = input.
+
+Since we use this throughout, this means that each instance of the class will be update separately.  If we wanted to make the values update for all class instances we could
+do that but declaring the values as static and making use of a static update method as we will do in the next lesson.
+
 
 */
 class other_class_two{
