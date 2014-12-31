@@ -28,7 +28,22 @@ If all of this is over your head, don't worry!  We'll get into all of it.
 
 The last thing to explain is the "class lesson_one{" line and the "public static void main(String[] args){" line.
 
-  
+Everything in Java is a class.  The reason for this is something you can't understand until you understand objects, and we aren't ready to explain that yet.  
+So for now you'll just have to take it as a given.
+
+The way you declare a class is with the following syntax:
+
+class [class name] 
+
+Aside: here and throughout, anything with brackets means a variable name that could be anything.
+
+So [class name] means this is just a place holder but will be the name of the class.
+
+The next line: "public static void main(String[] args)" really doesn't mean anything yet.  And it shouldn't.
+All you need to know about this is anything within the public static void main(String[] args) function will be run by the Java compiler.
+Anything not explicitly in this function will not be run, so if you want your code to actually need to be executed it needs to be "inside" this function definition.
+
+So how do you put things inside a function?  With curly braces.  Don't worry if that doesn't make much sense, we'll get into it over the next few lessons.
 */
 class lesson_one {
 	public static void main(String[] args){
