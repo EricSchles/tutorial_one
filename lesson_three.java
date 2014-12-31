@@ -37,7 +37,8 @@ If I didn't want to instiate the class and still wanted to use one of it's metho
 If you look back at lesson_two, that's how we did things there (in case you were looking for an example).
 
 void:
-The void keywork 
+The void keyword is used to tell Java that the function doesn't return anything.  You can sort of think of this as a place holder.
+It could also be the case that our function returns a type, something we'll get into soon! 
 */
 class lesson_three{
 	public static void main(String[] args){
