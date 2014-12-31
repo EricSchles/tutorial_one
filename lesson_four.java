@@ -25,6 +25,19 @@ it also means you get to be lazier in the future.
 2)
 So - the next thing to look at is updating values in a class, for this we have to look at other_class_two.java so please head there for the explanation.
 
+3) 
+So what does it really mean to instiate a class?  Well it means taking a general template and applying it to a specific variable termed an object.
+But what does that mean?  Well to understand that you'll need to understand how memory works in the computer.  This is a pretty challenging concept in
+it of itself.  For now though you just need to get this - when you use the new keyword, you tell Java to give your program new memory for your program, when it's running.
+
+In Java there are two stages of running a program - compile time and run time.
+
+During compile time your program gets certain pieces of it created and turned into java byte code.
+At run time anything "dynamic" will be allocated and turned into bytecode.  The term dynamic here is just used to refer to code that executes when the program is run.
+
+When you execute a program in general you are running it. For those of you new to programming this is the same thing as "launching" the program.
+ 
+
 */
 class lesson_four{
 	public static void main(String[] args){
